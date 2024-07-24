@@ -1,5 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+:root {
+    --fs-s: 1.125rem;
+    --fs-n: 1.5rem;
+    --fw-l: 400;
+    --fw-n: 500;
+    --fw-m: 600;
+    --fw-sb: 700;
+    --fw-b: 800;
+    --fw-exb: 900;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+/* Shraing style-start */
+.btn-primary{
+  color: #FFFFFF;
+  font-size: var(--fs-s);
+  font-weight: var(--fw-m);
+  padding: 16px 40px;
+  background-color: #E6533C;
+  border: none;
+  border-radius: 42px;
+  margin-right: 14px;
+}
+.btn-secondary{
+  color: #FFFFFF;
+  font-size: var(--fs-s);
+  font-weight: var(--fw-m);
+  padding: 16px 40px;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  border-radius: 42px;
+}
+.item-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Shraing style-end */
+
+/* set background color */
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+/* navigation start */
+.navigation{
+    padding: 50px 190px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation-title{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    padding: 12px 4px;
+    border: 1px solid #FFFFFF1A;
+    border-radius: 39px;
+}
+.navigation-list a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-l);
+    cursor: pointer;
+}
+.navigation-selected{
+    background-color: #E6533C;
+    border-radius: 46px;
+    font-weight: var(--fw-m);
+}
+/* nav-mobile */
+.nav-icon{
+    color: #FFFFFF;
+    font-size: var(--fs-n);
+    display: none;
+}
+/* navigation end */
+/* Bannar start */
+.bannar{
+    margin: 0 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannar-text{
+    width: 599px;
+}
+.bannar-title{
+    color: #FFFFFF;
+    font-size: 4.875rem;
+    font-weight: var(--fw-exb);
+    line-height: 120%;
+}
+.text-secondary{
+    font-family: 'Miama', sans-serif;
+    font-size: 9.5rem;
+    font-weight: var(--fw-n);
+}
+.bannar-description{
+    color: #FFFFFF80;
+    font-size: 1rem;
+    font-weight: var(--fw-l);
+    margin: 25px 0;
+}
+.bannar-img{
+    position: relative;
+}
+.workout-video-div{
+    width: 193px;
+    height: 98px;
+    flex-direction: column;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF1A;
+    backdrop-filter: blur(20px);
+    background: #FFFFFF1A;
+    position: absolute;
+    top:140px;
+    left: 230px;
+    
+}
+.tutorial-video-div{
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    border: 1px solid #FFFFFF1A;
+    backdrop-filter: blur(20px);
+    background: #FFFFFF1A;
+    position: absolute;
+    bottom: 75px;
+    left: -115px;
+}
+.workout-video-title{
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: var(--fw-exb);
+    text-align: center;
+}
+.workout-video-description{
+    color: #FFFFFFA6;
+    font-size: 0.81rem;
+    font-weight: var(--fw-l);
+    text-align: center;
+}
+.video-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+}
+.play-icon{
+    color: #FFFFFF;
+}
+.tutorial-video-title{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: var(--fw-exb);
+}
+.tutorial-video-description{
+    color: #FFFFFFA6;
+    font-size: 1rem;
+    font-weight: var(--fw-l);
 }

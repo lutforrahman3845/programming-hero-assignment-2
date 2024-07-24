@@ -1,0 +1,105 @@
+:root {
+    --fs-s: 1rem;
+    --fs-m:2.25rem;
+    --fw-l: 400;
+    --fw-n: 500;
+    --fw-m: 600;
+    --fw-sb: 700;
+    --fw-b: 800;
+    --fw-exb: 900;
+}
+@media screen and (max-width: 576px) {
+    /* navigation*/
+    .navigation{
+        padding: 50px 20px ;
+    }
+    .navigation-list{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+    /* bannar */
+    .bannar{
+        margin: 0 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bannar-text{
+        width: 350px;
+    }
+    .bannar-title{
+        font-size: var(--fs-m);
+    }
+    .text-secondary{
+        font-size: 5rem;
+    }
+    .workout-video-div{
+        top:50px;
+        left: 190px;
+    }
+    .tutorial-video-div{
+        bottom: 240px;
+        left: -5px;
+    }
+    .btn-primary{
+        padding: 16px 20px;
+        font-weight: var(--fw-n);
+      }
+      .btn-secondary{
+        padding: 16px 20px;
+        font-weight: var(--fw-n);
+      }
+}
+@media screen and (min-width: 576px)and (max-width: 992px) {
+    /* navigation start*/
+    .navigation{
+        padding: 50px 30px ;
+    }
+    .navigation-list{
+        gap: 5px;
+    }
+    .navigation-list a{
+        font-size: var(--fs-s);
+    }
+
+    /* bannar*/
+    .bannar{
+        margin: 0 72px;
+        flex-direction: column;
+    }
+    .bannar-title{
+        font-size: 4.4rem;
+    }
+    .text-secondary{
+        font-size: 9rem;
+    }
+    .workout-video-div{
+        top:60px;
+        left: 190px;
+    }
+    .tutorial-video-div{
+        bottom: 140px;
+        left: -40px;
+    }
+    
+}
+@media screen and (min-width: 992px)and (max-width: 1240px) {
+    /* navigation start*/
+    .navigation{
+        padding: 50px 100px ;
+    }
+
+    /* bannar*/
+    .bannar{
+        margin: 0 72px;
+    }
+    .workout-video-div{
+        top:60px;
+        left: 190px;
+    }
+    .tutorial-video-div{
+        bottom: 140px;
+        left: -40px;
+    }
+}
