@@ -1,13 +1,3 @@
-:root {
-    --fs-s: 1rem;
-    --fs-m:2.25rem;
-    --fw-l: 400;
-    --fw-n: 500;
-    --fw-m: 600;
-    --fw-sb: 700;
-    --fw-b: 800;
-    --fw-exb: 900;
-}
 @media screen and (max-width: 576px) {
     /* navigation*/
     .navigation{
@@ -61,7 +51,7 @@
     }
     /* run extra start */
     .run-extra{
-        max-width: 353px;
+        max-width: 355px;
         height: 535px;
         padding: 31px 33px;
         flex-direction: column;
@@ -79,6 +69,31 @@
     .run-extra-img{
         width: 100%;
         height: 45%;
+    }
+    /* Trainings and Exercises start */
+   .exercises{
+    margin: 90px 20px;
+    }
+    .exercises-title{
+        font-size: 2rem;
+    }
+    .training-img{
+        height: 135px;
+    
+    }
+    .trainings-part1{
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+    }
+    #training-img3{
+        display: none;
+    }
+    .trainings-part2{
+        display: grid;
+        grid-template-columns: 0.9fr 1fr;
+    }
+    #training-img6{
+        display: none;
     }
 }
 @media screen and (min-width: 576px)and (max-width: 992px) {
@@ -126,12 +141,20 @@
     }
     /* run extra start */
     .run-extra{
-        max-width: 680px;
+        max-width: 700px;
         height: 400px;
         padding: 40px 42px 40px 54px;
     }
     .run-extra-title{
-        font-size: 2.25rem;
+        font-size: var(--fs-m)
+    }
+     /* Trainings and Exercises start */
+   .exercises{
+    margin: 90px 30px;
+    }
+    .training-img{
+        height: 180px;
+    
     }
 }
 @media screen and (min-width: 992px)and (max-width: 1240px) {
@@ -161,5 +184,9 @@
     /* run extra  */
     .run-extra{
         max-width: 880px;
+    }
+    /* Trainings and Exercises start */
+   .exercises{
+    margin: 90px 100px;
     }
 }
