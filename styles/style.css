@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
 :root {
+    --fs-xs:0.875rem;
     --fs-s: 1.125rem;
     --fs-n: 1.5rem;
     --fw-l: 400;
@@ -104,7 +105,7 @@ header{
     justify-content: space-between;
 }
 .bannar-text{
-    width: 599px;
+    max-width:599px;
 }
 .bannar-title{
     color: #FFFFFF;
@@ -185,3 +186,78 @@ header{
     font-size: 1rem;
     font-weight: var(--fw-l);
 }
+/* Bannar end */
+/* habit section strat */
+.habit{
+    margin: 100px auto;
+    
+}
+.habit-title{
+    font-size: 4rem;
+    font-weight: var(--fw-exb);
+    color: #FFFFFF;
+    text-align: center;
+}
+.habit-description{
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-l);
+    color: #FFFFFF80;
+    max-width: 640px;
+    margin: 15px auto;
+    text-align: center;
+    margin-bottom: 54px;
+}
+.chng-habits{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.chng-habit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chng-habit-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.chng-habit-title{
+    font-size: var(--fs-s);
+    font-weight: var(--fw-m);
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+.chng-habit-description{
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-l);
+    color: #FFFFFF80;
+    max-width: 231px;
+}
+#chng-habit-img1{
+    background-image:url(../assets/image\ 3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#chng-habit-img2{
+    background-image:url(../assets/image\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#chng-habit-img3{
+    background-image:url(../assets/image\ 4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#chng-habit-img4{
+    background-image:url(../assets/image\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* habbit section end */

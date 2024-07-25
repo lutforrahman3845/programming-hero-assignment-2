@@ -50,6 +50,19 @@
         padding: 16px 20px;
         font-weight: var(--fw-n);
       }
+    /* habit */
+    .chng-habits{
+        margin: 0 10px;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 40px;
+    }
+    .habit-title{
+        font-size: 2rem;
+        font-weight: var(--fw-b);
+    }
+    .habit-description{
+        max-width: 470px;
+    }
 }
 @media screen and (min-width: 576px)and (max-width: 992px) {
     /* navigation start*/
@@ -82,7 +95,19 @@
         bottom: 140px;
         left: -40px;
     }
-    
+    /* habit section */
+    .chng-habits{
+        margin: 0 100px;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 80px;
+    }
+    .habit-title{
+        font-size: 3.5rem;
+        font-weight: var(--fw-b);
+    }
+    .habit-description{
+        max-width: 470px;
+    }
 }
 @media screen and (min-width: 992px)and (max-width: 1240px) {
     /* navigation start*/
@@ -101,5 +126,11 @@
     .tutorial-video-div{
         bottom: 140px;
         left: -40px;
+    }
+    /* habit */
+    .chng-habits{
+        margin: 0 120px;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 40px;
     }
 }
