@@ -3,6 +3,7 @@
 :root {
     --fs-xs:0.875rem;
     --fs-s: 1.125rem;
+    --fs-title:3rem;
     --fs-n: 1.5rem;
     --fw-l: 400;
     --fw-n: 500;
@@ -24,6 +25,16 @@ body{
     background-color: black;
 }
 /* Shraing style-start */
+.text-primary{
+    font-size: var(--fs-title);
+    font-weight: var(--fw-exb);
+    color: #FFFFFF;
+}
+.text-description{
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-l);
+    color: #FFFFFF80;
+}
 .btn-primary{
   color: #FFFFFF;
   font-size: var(--fs-s);
@@ -189,19 +200,14 @@ header{
 /* Bannar end */
 /* habit section strat */
 .habit{
+    max-width: 1040px;
     margin: 100px auto;
-    
 }
 .habit-title{
-    font-size: 4rem;
-    font-weight: var(--fw-exb);
-    color: #FFFFFF;
     text-align: center;
 }
+
 .habit-description{
-    font-size: var(--fs-xs);
-    font-weight: var(--fw-l);
-    color: #FFFFFF80;
     max-width: 640px;
     margin: 15px auto;
     text-align: center;
@@ -230,9 +236,6 @@ header{
     margin-bottom: 5px;
 }
 .chng-habit-description{
-    font-size: var(--fs-xs);
-    font-weight: var(--fw-l);
-    color: #FFFFFF80;
     max-width: 231px;
 }
 #chng-habit-img1{
@@ -259,5 +262,32 @@ header{
     background-position: center;
     background-size: cover;
 }
-
 /* habbit section end */
+/* run extra start */
+.run-extra{
+    max-width: 1060px;
+    height: 400px;
+    background-color: #222222;
+    border-radius: 18px;
+    margin: 100px auto;
+    padding: 30px 32px 30px 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.run-extra-text{
+    width: 42%;
+}
+.run-extra-description{
+    margin: 14px 0 34px 0;
+}
+.run-extra-img{
+    width: 45%;
+    height: 100%;
+    border-radius: 18px;
+    background-image: url(../assets/run.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* run extra end */
