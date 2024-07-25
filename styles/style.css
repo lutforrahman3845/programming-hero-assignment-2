@@ -3,8 +3,11 @@
 :root {
     --fs-xs:0.875rem;
     --fs-s: 1.125rem;
-    --fs-title:3rem;
+    --fs-root:1rem;
     --fs-n: 1.5rem;
+    --fs-m:2.25rem;
+    --fs-title:3rem;
+    --fs-ttl-m:2rem;
     --fw-l: 400;
     --fw-n: 500;
     --fw-m: 600;
@@ -294,6 +297,7 @@ header{
 /* Trainings and Exercises start */
 .exercises{
     margin: 90px 190px;
+    text-align: center
 }
 .exercises-description{
     margin: 14px 0 55px 0;
@@ -364,3 +368,80 @@ header{
     background-blend-mode: overlay;
 }
 /* Trainings and Exercises end */
+/* BMI Calculator start */
+.bmi-cal{
+    margin: 88px 0;
+}
+.bmi-cal-text{
+    text-align: center;
+}
+.bmi-cal-description{
+    width: 50%;
+    margin:14px auto ;
+    margin-bottom: 74px;
+}
+.calculator{
+    width: 100%;
+    height: fit-content;
+    background-color: #222222;
+    padding: 50px 190px;
+    display: flex;
+    justify-content: space-between;
+}
+.calculat-chat-title{
+    font-family: 1.75rem;
+    font-weight: var(--fw-exb);
+    margin-bottom: 52px;
+    color: #FFFFFF;
+}
+.calculat-chat-tbl,.calculat-chat-tbl-hdr,.calculat-chat-tbl-data{
+    border: 1px solid#FFFFFF1A;
+    border-collapse: collapse;
+    padding: 14px 24px;
+    width: 310px;
+}
+.calculat-chat-tbl-hdr{
+    color: #FFFFFF;
+    font-size: var(--fs-root);
+    font-weight: var(--fw-n);
+}
+.calculator-bmi{
+    width: 50%;
+}
+.calculator-bmi-title{
+    color: #FFFFFF;
+    font-family: 1.75rem;
+    font-weight: var(--fw-exb);
+}
+.calculator-bmi-description {
+    margin:14px 0 34px 0;
+}
+.calculator-input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+.activity{
+    grid-column: 1/3;
+}
+.calculator-input{
+    margin-bottom: 34px;
+}
+.calculator-input > input,select,option{
+    width: 100%;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF1A;
+    
+}
+.calculator-input > input,select{
+outline: none;
+
+}
+.calculator-input > input::placeholder,select{
+   font-size: var(--fs-root);
+   font-weight: var(--fw-l);
+   color: #FFFFFF99;
+}
+/* BMI Calculator end */

@@ -38,12 +38,12 @@
     }
     /* habit */
     .chng-habits{
-        margin: 0 10px;
+        margin: 0 20px;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 40px;
     }
     .habit-title{
-        font-size: 2rem;
+        font-size: var(--fs-ttl-m);
         font-weight: var(--fw-b);
     }
     .habit-description{
@@ -61,7 +61,7 @@
         height: 50%;
     }
     .run-extra-title{
-        font-size: 2rem;
+        font-size: var(--fs-ttl-m);
     }
     .run-extra-description{
         margin: 14px 0 24px 0;
@@ -72,10 +72,10 @@
     }
     /* Trainings and Exercises start */
    .exercises{
-    margin: 90px 20px;
+    margin: 50px 20px;
     }
     .exercises-title{
-        font-size: 2rem;
+        font-size: var(--fs-ttl-m);
     }
     .training-img{
         height: 135px;
@@ -95,6 +95,31 @@
     #training-img6{
         display: none;
     }
+    /* BMI Calculator */
+    .bmi-cal-description{
+        width: 70%;
+    }
+    .calculat-chat-tbl{
+        width: 300px;
+    }
+    .calculator{
+        padding: 34px 20px;
+        flex-direction: column;
+        gap: 42px;
+    }
+    .calculator-bmi{
+        width: 100%;
+    }
+    .bmi-cal-title{
+        font-size: var(--fs-ttl-m);
+    }
+    .calculat-chat-title{
+        font-size: var(--fs-root);
+        margin-bottom: 32px;
+    }
+    .calculator-bmi-title{
+        font-size: var(--fs-root);
+    }
 }
 @media screen and (min-width: 576px)and (max-width: 992px) {
     /* navigation start*/
@@ -105,7 +130,7 @@
         gap: 5px;
     }
     .navigation-list a{
-        font-size: var(--fs-s);
+        font-size: var(--fs-root);
     }
 
     /* bannar*/
@@ -156,6 +181,15 @@
         height: 180px;
     
     }
+    /* BMI Calculator */
+    .calculator{
+        padding: 34px 30px;
+        flex-direction: column;
+        gap: 62px;
+    }
+    .calculator-bmi{
+        width: 100%;
+    }
 }
 @media screen and (min-width: 992px)and (max-width: 1240px) {
     /* navigation start*/
@@ -188,5 +222,9 @@
     /* Trainings and Exercises start */
    .exercises{
     margin: 90px 100px;
+    }
+    /* BMI Calculator */
+    .calculator{
+        padding: 40px 100px;
     }
 }
