@@ -445,3 +445,92 @@ outline: none;
    color: #FFFFFF99;
 }
 /* BMI Calculator end */
+/* Service start */
+.services{
+    margin: 88px 190px;
+}
+.services-title{
+    text-align: center;
+}
+.services-description{
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+}
+.services-catagory{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+    gap: 20px;
+}
+.service-traning{
+    width: 340px;
+    height: fit-content;
+    background-color: #222222;
+}
+.service-traning-img{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+}
+#service-traning-img1{
+    background-image: url(../assets/muscle.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#service-traning-img2{
+    background-image: url(../assets/strength.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#service-traning-img3{
+    background-image: url(../assets/Fat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-traning-info{
+    padding: 20px;
+}
+.service-traning-info-title{
+    font-size: 1.75rem;
+    font-weight: var(--fw-exb);
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.service-traning-info > ol{
+    padding-left: 20px;
+    margin:20px 0;
+}
+.service-traning-info > ol >li{
+    list-style:circle;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-l);
+    color: #FFFFFF80;
+    padding-top: 15px;
+}
+.service-enroll{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-enroll >p{
+    font-size: var(--fs-s);
+    font-weight: var(--fw-l);
+    color: #FFFFFF80;
+}
+.service-enroll-btn{
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-m);
+    color: #FFFFFF;
+    background-color: #E6533C;
+}
+/* Service end */

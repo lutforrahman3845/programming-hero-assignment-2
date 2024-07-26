@@ -120,6 +120,17 @@
     .calculator-bmi-title{
         font-size: var(--fs-root);
     }
+    /* services */
+    .services-catagory{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* Servicers */
+    .services{
+        margin: 70px 20px;
+    }
+    .services-description{
+        width: 80%;
+    }
 }
 @media screen and (min-width: 576px)and (max-width: 992px) {
     /* navigation start*/
@@ -190,6 +201,13 @@
     .calculator-bmi{
         width: 100%;
     }
+    .services-catagory{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* Servicers */
+    .services{
+        margin: 80px 30px;
+    }
 }
 @media screen and (min-width: 992px)and (max-width: 1240px) {
     /* navigation start*/
@@ -226,5 +244,21 @@
     /* BMI Calculator */
     .calculator{
         padding: 40px 100px;
+    }
+    /* Servicers */
+    .services{
+        margin: 88px 100px;
+    }
+}
+/* Just for bannar > vd-ttorl and wrkot-vd div and this media query shrad everything with 576px width media query. That's why I didn't use in 576px width meadia query min-width */
+@media screen and (max-width:400px) {
+    /* bannar */
+    .workout-video-div{
+        top:190px;
+        left: 150px;
+    }
+    .tutorial-video-div{
+        bottom: 80px;
+        left: -5px;
     }
 }
