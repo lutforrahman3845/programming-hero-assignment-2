@@ -97,7 +97,7 @@
     }
     /* BMI Calculator */
     .bmi-cal-description{
-        width: 70%;
+        width: 80%;
     }
     .calculat-chat-tbl{
         width: 300px;
@@ -124,12 +124,27 @@
     .services-catagory{
         grid-template-columns: repeat(1,1fr);
     }
-    /* Servicers */
     .services{
         margin: 70px 20px;
     }
+    .services-title{
+        font-size: var(--fs-ttl-m);
+    }
     .services-description{
         width: 80%;
+    }
+    /* team */
+    .team{
+        margin: 70px 20px;
+    }
+    .team-description{
+        width: 80%;
+    }
+    .team-members{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .team-title{
+        font-size: var(--fs-ttl-m);
     }
 }
 @media screen and (min-width: 576px)and (max-width: 992px) {
@@ -208,6 +223,10 @@
     .services{
         margin: 80px 30px;
     }
+    /* team */
+    .team{
+        margin: 80px 30px;
+    }
 }
 @media screen and (min-width: 992px)and (max-width: 1240px) {
     /* navigation start*/
@@ -247,6 +266,10 @@
     }
     /* Servicers */
     .services{
+        margin: 88px 100px;
+    }
+    /* team */
+    .team{
         margin: 88px 100px;
     }
 }

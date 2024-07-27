@@ -534,3 +534,76 @@ outline: none;
     background-color: #E6533C;
 }
 /* Service end */
+/* team start */
+.team{
+    margin: 88px 190px;
+}
+.team-title{
+    text-align: center;
+}
+.team-description{
+    width: 60%;
+    text-align: center;
+    margin: 20px auto;
+}
+.team-members{
+    margin-top: 54px;
+    padding: 20px;
+    background-color: #FFFFFF1A;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.tm-mbr-img{
+    width: 100%;
+    height: 272px;
+    background-color: red;
+    border-radius: 18px;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.tm-mbr-nm{
+    color: #FFFFFF;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-m);
+}
+#tm-mbr-img1{
+    background-image:url(../assets/trainer1.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#tm-mbr-img2{
+    background-image:url(../assets/trainer2.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#tm-mbr-img3{
+    background-image:url(../assets/trainer3.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#tm-mbr-img4{
+    background-image:url(../assets/trainer4.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#tm-mbr-img5{
+    background-image:url(../assets/trainer5.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#tm-mbr-img6{
+    background-image:url(../assets/trainer6.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* team end */
