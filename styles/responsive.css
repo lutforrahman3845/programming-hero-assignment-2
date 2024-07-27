@@ -146,6 +146,20 @@
     .team-title{
         font-size: var(--fs-ttl-m);
     }
+    /* footer */
+    footer{
+        padding: 66px 20px 35px 20px;
+    }
+    .ftr{
+        flex-direction: column;
+    }
+    .footer-optns{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-descripton{
+        width: 70%;
+    }
 }
 @media screen and (min-width: 576px)and (max-width: 992px) {
     /* navigation start*/
@@ -227,6 +241,17 @@
     .team{
         margin: 80px 30px;
     }
+    /* footer */
+    footer{
+        padding: 66px 30px 35px 30px;
+    }
+    .ftr{
+        flex-direction: column;
+    }
+    .footer-optns{
+        display: flex;
+        gap: 125px;
+    }
 }
 @media screen and (min-width: 992px)and (max-width: 1240px) {
     /* navigation start*/
@@ -271,6 +296,10 @@
     /* team */
     .team{
         margin: 88px 100px;
+    }
+    /* footer */
+    footer{
+        padding: 66px 100px 35px 100px;
     }
 }
 /* Just for bannar > vd-ttorl and wrkot-vd div and this media query shrad everything with 576px width media query. That's why I didn't use in 576px width meadia query min-width */

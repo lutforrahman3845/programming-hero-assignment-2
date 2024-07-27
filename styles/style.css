@@ -607,3 +607,52 @@ outline: none;
     background-size: cover;
 }
 /* team end */
+/* footer start */
+footer{
+    padding: 66px 190px 35px 190px;
+    background-color: #FFFFFF1A;
+}
+.ftr{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-optns{
+    display: flex;
+    gap: 145px;
+}
+.footer-title{
+    font-size: 4.375rem;
+    font-weight: var(--fw-b);
+    font-style:italic;
+    color: #E6533C;
+    margin-bottom: 15px;
+}
+.footer-descripton{
+    width: 430px;
+    margin-bottom: 80px;
+}
+.footer-optn-title{
+    font-size: var(--fs-ttl-m);
+    font-weight: var(--fw-sb);
+    color: #FFFFFF;
+    margin-bottom: 39px;
+}
+.footer-optn-itm{
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 1.44rem;
+    font-weight: var(--fw-l);
+    color: #FFFFFF80;
+}
+.ftr-hr{
+    border: 1px solid #FFFFFF1A;
+    margin-top: 65px;
+    margin-bottom: 35px;
+}
+.ftr-end{
+    font-size: 1.25rem;
+    font-weight: var(--fw-l);
+    color: #FFFFFF80;
+    text-align: center;
+}
+/* footer end */
